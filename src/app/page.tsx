@@ -105,22 +105,7 @@ export default function Home() {
           <div className=" bg-third mx-5 pb-5 my-3">
             <h1 className="text-2xl p-3">Duong Bao</h1>
             <p className="font-light p-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus doloremque modi delectus voluptas quo quaerat minima accusamus iusto.</p>
-            <nav className="text-xm text-secondary ">
-                <div className="flex flex-row font-medium mt-3  md:space-x-8 justify-center">
-                  
-                    <p className="block py-2 pl-3 pr-4">Company</p>
-                  
-                  
-                    <p className="block py-2 pl-3 pr-4">Source</p>
-                  
-                  
-                    <p className="block py-2 pl-3 pr-4 ">Resource</p>
-                  
-                 
-                    <p className="block py-2 pl-3 pr-4">On Social</p>
-                  
-              </div>
-            </nav>
+            
             </div>
         
       </footer>
