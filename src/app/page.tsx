@@ -94,7 +94,7 @@ export default function Home() {
       </main>
 
       <footer className="p-5 bg-gray-950">
-        <section className="bg-third  p-2 pb-5 my-3 mx-10 flex flex-col">
+        <section className="bg-third  p-2 pb-5 my-3 mx-10 ">
           
             <h1 className="text-2xl p-3">Duong Bao</h1>
             <p className="p-3 font-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus doloremque modi delectus voluptas quo quaerat minima accusamus iusto, asperiores debitis pariatur iste rerum ullam, maiores quam sunt ducimus rem deserunt.</p>
