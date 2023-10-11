@@ -14,7 +14,7 @@ interface BlockCardProps {
 
 function BlogCard({post}: BlockCardProps) {
     return (
-        <div className="bg-third p-2 pb-5 my-3 mx flex flex-col items-center">
+        <div className="bg-third p-2 pb-5 my-3 flex flex-col items-center">
             <div className="relative w-full h-40">
                 <Image src={post.image}
                 layout="fill"
