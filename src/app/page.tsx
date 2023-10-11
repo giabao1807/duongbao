@@ -45,8 +45,8 @@ export default function Home() {
 
       <main className="p-5  bg-gray-950 grid gap-12">
         
-        <section className="flex flex-col md:flex-row max-w-screen-xl items-center ">
-          {/*taglines*/}
+        <section className="flex flex-col  md:flex-row items-center ">
+          
           <div className="flex-1 mb-5">
             <p className="text-xs text-secondary font-mono">Development | Code | Entrepreneurship</p>
             <h1 className="text-2xl my-3 ">Im here to help you become a really good web developer.</h1>
