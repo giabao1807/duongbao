@@ -1,7 +1,7 @@
 import React from 'react'
 import Button from './Button';
 import Image from 'next/image';
-import { type } from 'os';
+
 interface BlockCardProps {
     post: {
         id: string;
@@ -14,7 +14,7 @@ interface BlockCardProps {
 
 function BlogCard({post}: BlockCardProps) {
     return (
-        <div className="bg-third p-2 pb-5 my-3 mx-7 flex flex-col items-center">
+        <div className="bg-third p-2 pb-5 my-3 mx-10 flex flex-col items-center">
             <div className="relative w-full h-40">
                 <Image src={post.image}
                 layout="fill"
