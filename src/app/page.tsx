@@ -30,7 +30,7 @@ const blogPosts = [
     slug: 'the_importance_of_learning_css',
     title: 'The Rules of Margin Collapse',
     image: 'https://s3.envato.com/files/280769274/IMG_0720.jpg',
-    excerpt: '"Margin collapse" has a dastardly reputation, one of the trickier parts of CSS. Fortunately, it gets a lot easier oce you learn a few rules! In this tutorial, we take a deep dive into the...'
+    excerpt: '"Margin collapse" has a dastardly reputation, one of the trickier parts of CSS. Fortunately, it gets a lot easier oce you learn a few rules! In this tutorial, we take a deep dive in'
   },
 ]
 
@@ -79,7 +79,7 @@ export default function Home() {
             ))}
         </section>
 
-        <section className="flex flex-col mx-10 items-center">
+        <section className="flex flex-col  items-center">
           <h1 className="text-2xl">Blog</h1>
           <p className="text-xs text-gray-500 text-center">Lorem ipsum dolor, sit amet consectetur 
             adipisicing elit. Quaerat dolores unde atque 
