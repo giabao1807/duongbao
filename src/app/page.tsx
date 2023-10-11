@@ -50,7 +50,7 @@ export default function Home() {
       </Head>
       
 
-      <main className="p-5  bg-gray-950 max-w-screen-xl grid gap-12">
+      <main className="p-5  bg-gray-950  grid gap-12">
         
         <section className="flex flex-col md:flex-row items-center ">
           
