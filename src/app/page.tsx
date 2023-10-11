@@ -97,7 +97,7 @@ export default function Home() {
         <section className="bg-third  p-2 pb-5 my-3 mx-10 ">
           
             <h1 className="text-2xl p-3">Duong Bao</h1>
-            <p className="p-3 font-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus doloremque modi delectus voluptas quo quaerat minima accusamus iusto, asperiores debitis pariatur iste rerum ullam.</p>
+            <p className="p-3 font-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus doloremque modi delectus voluptas quo quaerat minima accusamus iusto.</p>
             <nav className="text-xm text-secondary ">
                 <div className="flex flex-row font-medium mt-3 flex-wrap md:space-x-8 justify-center">
                   
