@@ -50,7 +50,7 @@ export default function Home() {
       </Head>
       
 
-      <main className="p-5  bg-gray-950 max-w-screen-2xl grid gap-12">
+      <main className="p-5  bg-gray-950 max-w-screen-xl grid gap-12">
         
         <section className="flex flex-col md:flex-row items-center ">
           
@@ -102,11 +102,26 @@ export default function Home() {
 
       <footer className="p-5 bg-gray-950 grid gap-12 ">
         
-          <div className=" bg-third mx-5 pb-5 my-3">
+          <section className=" bg-third mx-5 pb-5 my-3">
             <h1 className="text-2xl p-3">Duong Bao</h1>
             <p className="font-light p-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus doloremque modi delectus voluptas quo quaerat minima accusamus iusto.</p>
-            
-            </div>
+            <nav className="text-xm text-secondary ">
+                <div className="flex flex-row font-medium mt-3  md:space-x-8 justify-center">
+                  
+                    <p className="block py-2 pl-3 pr-4">Company</p>
+                  
+                  
+                    <p className="block py-2 pl-3 pr-4">Source</p>
+                  
+                  
+                    <p className="block py-2 pl-3 pr-4 ">Resource</p>
+                  
+                 
+                    <p className="block py-2 pl-3 pr-4">On Social</p>
+                  
+              </div>
+            </nav>
+            </section>
         
       </footer>
     </div>
