@@ -32,6 +32,13 @@ const blogPosts = [
     image: 'https://s3.envato.com/files/280769274/IMG_0720.jpg',
     excerpt: '"Margin collapse" has a dastardly reputation, one of the trickier parts of CSS. Fortunately, it gets a lot easier oce you learn a few rules! In this tutorial, we take a deep dive in'
   },
+  {
+    id: '2',
+    slug: 'the_importance_of_learning_css',
+    title: 'The Importance of Learning HTML',
+    image: 'https://s3.envato.com/files/280769274/IMG_0720.jpg',
+    excerpt: '"Margin collapse" has a dastardly reputation, one of the trickier parts of CSS. Fortunately, it gets a lot easier oce you learn a few rules! In this tutorial, we take a deep dive in'
+  },
 ]
 
 export default function Home() {
