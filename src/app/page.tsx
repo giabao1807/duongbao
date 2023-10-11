@@ -79,7 +79,7 @@ export default function Home() {
             ))}
         </section>
 
-        <section className="flex flex-col items-center">
+        <section className="flex flex-col mx-10 items-center">
           <h1 className="text-2xl">Blog</h1>
           <p className="text-xs text-gray-500 text-center">Lorem ipsum dolor, sit amet consectetur 
             adipisicing elit. Quaerat dolores unde atque 
