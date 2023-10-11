@@ -33,7 +33,7 @@ const blogPosts = [
     excerpt: '"Margin collapse" has a dastardly reputation, one of the trickier parts of CSS. Fortunately, it gets a lot easier oce you learn a few rules! In this tutorial, we take a deep dive in'
   },
   {
-    id: '2',
+    id: '3',
     slug: 'the_importance_of_learning_css',
     title: 'The Importance of Learning HTML',
     image: 'https://s3.envato.com/files/280769274/IMG_0720.jpg',
@@ -50,7 +50,7 @@ export default function Home() {
       </Head>
       
 
-      <main className="p-5  bg-gray-950 grid gap-12">
+      <main className="p-5  bg-gray-950 max-w-screen-2xl grid gap-12">
         
         <section className="flex flex-col md:flex-row items-center ">
           
@@ -64,7 +64,7 @@ export default function Home() {
 
           <div className="flex-1 relative flex justify-center items-center pr-9 mb-10 w-full mix-blend">
               <Image src="/images/profile.jpg" width={144} height={144} alt="profile image" layout='responsive'/>
-              <div className="absolute bg-yellow-300 bottom-0 right-0 w-30 transform translate-y-9 ">
+              <div className="absolute bottom-0 right-0 w-30 transform translate-y-9 ">
                 <Image src="/images/plus.webp" width={144} height={144} alt="profile image"  />
               </div>
           </div>
@@ -100,11 +100,11 @@ export default function Home() {
         
       </main>
 
-      <footer className=" bg-gray-950 ">
-        <section className="bg-third p-2 pb-5 mx-10 flex flex-col">
-          <div className="p-5">
-            <h1 className="text-2xl">Duong Bao</h1>
-            <p className="font-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus doloremque modi delectus voluptas quo quaerat minima accusamus iusto.</p>
+      <footer className="p-5 bg-gray-950 grid gap-12 ">
+        <section className="flex flex-col ">
+          <div className=" bg-third mx-5 pb-5 my-3">
+            <h1 className="text-2xl p-3">Duong Bao</h1>
+            <p className="font-light p-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus doloremque modi delectus voluptas quo quaerat minima accusamus iusto.</p>
             <nav className="text-xm text-secondary ">
                 <div className="flex flex-row font-medium mt-3  md:space-x-8 justify-center">
                   
@@ -121,7 +121,7 @@ export default function Home() {
                   
               </div>
             </nav>
-          </div>
+            </div>
         </section>
       </footer>
     </div>
