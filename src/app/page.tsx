@@ -43,9 +43,9 @@ export default function Home() {
       </Head>
       
 
-      <main className="p-5  bg-gray-950 grid gap-12">
+      <main className="p-5  bg-gray-950 max-w-screen-xl grid gap-12">
         
-        <section className="flex flex-col  md:flex-row items-center ">
+        <section className="flex flex-col max-w-screen-xl  md:flex-row items-center ">
           
           <div className="flex-1 mb-5">
             <p className="text-xs text-secondary font-mono">Development | Code | Entrepreneurship</p>
