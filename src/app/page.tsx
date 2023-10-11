@@ -93,13 +93,13 @@ export default function Home() {
         
       </main>
 
-      <footer className="   bg-gray-950 ">
-        <section className="bg-third p-2 mx-5 flex flex-col ">
+      <footer className=" p-5  bg-gray-950 ">
+        <div className="bg-third p-2 pb-5 my-3 flex flex-col items-center">
           
             <h1 className="text-2xl py-3">Duong Bao</h1>
             <p className="font-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus doloremque modi delectus voluptas quo quaerat minima accusamus iusto.</p>
             <nav className="text-xm text-secondary ">
-                <div className="flex flex-row font-medium mt-3 flex-wrap md:space-x-8 justify-center">
+                <div className="flex flex-row font-medium mt-3  md:space-x-8 justify-center">
                   
                     <p className="block py-2 pl-3 pr-4">Company</p>
                   
@@ -115,7 +115,7 @@ export default function Home() {
               </div>
             </nav>
             
-          </section>
+          </div>
         </footer>
     </div>
   )
