@@ -93,7 +93,7 @@ export default function Home() {
         
       </main>
 
-      <footer className="p-5 bg-gray-950">
+      <footer className="p-5  bg-gray-950 grid gap-12">
         <section className="bg-third  p-2 pb-5 my-3 mx-10 ">
           
             <h1 className="text-2xl p-3">Duong Bao</h1>
