@@ -90,10 +90,7 @@ export default function Home() {
 
            <div className="m-3"> <Button text="See All Blogs" href="/blog" type='secondary'></Button></div>
         </section>
-        
-      </main>
 
-      <footer className=" p-5  bg-gray-950 ">
         <div className="bg-third p-2 pb-5 my-3 flex flex-col items-center">
           
             <h1 className="text-2xl py-3">Duong Bao</h1>
@@ -116,7 +113,12 @@ export default function Home() {
             </nav>
             
           </div>
-        </footer>
+        
+      </main>
+
+      
+        
+        
     </div>
   )
 }
