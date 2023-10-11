@@ -90,10 +90,13 @@ export default function Home() {
 
            <div className="m-3"> <Button text="See All Blogs" href="/blog" type='secondary'></Button></div>
         </section>
+        
+      </main>
 
-        <div className="bg-third p-2 pb-5 my-3 flex flex-col items-center">
-          
-            <h1 className="text-2xl py-3">Duong Bao</h1>
+      <footer className=" bg-gray-950 ">
+        <section className="bg-third p-2 pb-5 mx-10 flex flex-col">
+          <div className="p-5">
+            <h1 className="text-2xl">Duong Bao</h1>
             <p className="font-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus doloremque modi delectus voluptas quo quaerat minima accusamus iusto.</p>
             <nav className="text-xm text-secondary ">
                 <div className="flex flex-row font-medium mt-3  md:space-x-8 justify-center">
@@ -111,14 +114,9 @@ export default function Home() {
                   
               </div>
             </nav>
-            
           </div>
-        
-      </main>
-
-      
-        
-        
+        </section>
+      </footer>
     </div>
   )
 }
