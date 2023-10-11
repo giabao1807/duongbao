@@ -101,7 +101,7 @@ export default function Home() {
       </main>
 
       <footer className="p-5 bg-gray-950 grid gap-12 ">
-        <section className="flex flex-col ">
+        
           <div className=" bg-third mx-5 pb-5 my-3">
             <h1 className="text-2xl p-3">Duong Bao</h1>
             <p className="font-light p-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus doloremque modi delectus voluptas quo quaerat minima accusamus iusto.</p>
@@ -122,7 +122,7 @@ export default function Home() {
               </div>
             </nav>
             </div>
-        </section>
+        
       </footer>
     </div>
   )
